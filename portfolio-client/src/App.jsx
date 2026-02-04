@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Landing from "./pages/Landing";
 import About from "./pages/About";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 function App() {
   return (
@@ -10,8 +11,11 @@ function App() {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Landing />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/Home" element={<Home/>}/>
+        <Route path="/Projects" element={<Projects/>}/>
+        <Route path="/Contacts" element={<Contacts/>}/>
       </Routes>
     </BrowserRouter>
   );
