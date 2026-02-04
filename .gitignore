@@ -1,0 +1,14 @@
+# Node
+node_modules/
+
+# Build folders
+dist/
+build/
+target/
+
+# Environment
+.env
+
+# IDE
+.idea/
+.vscode/
